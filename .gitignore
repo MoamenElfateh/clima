@@ -1,45 +1,68 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# Flutter/Dart specific
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
+.packages
+build/
 
-# Symbolication related
-app.*.symbols
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/.dart_tool/
 
-# Obfuscation related
-app.*.map.json
+# Android
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+android/.dart_tool/
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Web
+test/
+web/
+
+# Windows
+windows/CMakeLists.txt
+windows/flutter/ephemeral/
+
+# macOS
+macos/.dart_tool/
+macos/Flutter/ephemeral/
+macos/CMakeLists.txt
+
+# Linux
+linux/flutter/ephemeral/
+linux/CMakeLists.txt
+
+# VS Code settings
+.vscode/
+
+# IntelliJ IDEA settings
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Miscellaneous
+*.log
+*.lock
+pubspec.lock
+
+# Generated files
+coverage/
+*.dart.js
+debug/
+profile/
+release/
+
+# Firebase/Google Services
+google-services.json
+firebase.json
+*.keystore
+
+# Other IDEs and editors
+*.swp
+*.swo
+*.swn
