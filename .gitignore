@@ -33,6 +33,7 @@ macos/Flutter/ephemeral/
 macos/CMakeLists.txt
 
 # Linux
+
 linux/flutter/ephemeral/
 linux/CMakeLists.txt
 
